@@ -1,0 +1,252 @@
+                                                    body {
+                                                        background: #FF7A7A;
+                                                        background-image: url(images/bg-intro-desktop.png);
+                                                        margin: 90px 120px 90px 120px;
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .body-mobile {
+                                                            margin: 90px 15px 70px 15px;
+                                                            background-image: url(images/bg-intro-mobile.png);
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .flex {
+                                                            display: flex;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .try {
+                                                            justify-content: flex-end;
+                                                        }
+                                                    }
+                                                    
+                                                    .title {
+                                                        font-family: 'Montserrat', sans-serif;
+                                                        color: white;
+                                                        padding-right: 60px;
+                                                        padding-left: 60px;
+                                                        font-weight: 700;
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .title-desktop {
+                                                            text-align: left;
+                                                            font-size: 48px;
+                                                            padding-top: 120px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .title-mobile {
+                                                            text-align: center;
+                                                            font-size: 25px;
+                                                        }
+                                                    }
+                                                    
+                                                    .subtitle {
+                                                        font-family: 'Montserrat', sans-serif;
+                                                        color: white;
+                                                        line-height: 1.6;
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .subtitle-desktop {
+                                                            font-size: 12px;
+                                                            text-align: left;
+                                                            padding: 20px 150px 0px 60px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .subtitle-mobile {
+                                                            text-align: center;
+                                                            font-size: 17px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .boxarea {
+                                                            padding-right: 20px;
+                                                            padding-left: 40px;
+                                                            width: 700px;
+                                                        }
+                                                    }
+                                                    
+                                                    .try-free {
+                                                        background-color: #6055A5;
+                                                        text-align: center;
+                                                        font-family: 'Montserrat', sans-serif;
+                                                        color: white;
+                                                        font-size: 17px;
+                                                        border-radius: 10px;
+                                                        padding: 20px;
+                                                        box-shadow: 0 5px 1px 0 rgba(0, 0, 0, 0.15);
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .try-free-desktop {
+                                                            border-radius: 5px;
+                                                            width: 400px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .try-free-mobile {
+                                                            font-size: 17px;
+                                                            border-radius: 10px;
+                                                            box-shadow: 0 6px 1px 0 rgba(0, 0, 0, 0.15);
+                                                            padding-right: 41px;
+                                                            padding-left: 41px;
+                                                        }
+                                                    }
+                                                    
+                                                    .form-box {
+                                                        padding-top: 15px;
+                                                    }
+                                                    
+                                                    .formbg {
+                                                        background-color: white;
+                                                        padding: 20px;
+                                                        border-radius: 10px;
+                                                        box-shadow: 0 5px 1px 0 rgba(0, 0, 0, 0.15);
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .formbg-mobile {
+                                                            box-shadow: 0 6px 1px 0 rgba(0, 0, 0, 0.15)
+                                                        }
+                                                    }
+                                                    
+                                                    .form-text {
+                                                        display: grid;
+                                                        padding: 7px;
+                                                        font-size: 10px;
+                                                        margin-bottom: 5px;
+                                                    }
+                                                    
+                                                    input {
+                                                        height: 25px;
+                                                        font-size: 14px;
+                                                        padding: 10px;
+                                                        border-radius: 5px;
+                                                        border: 1px solid hsl(233, 13%, 49%);
+                                                        outline-color: rebeccapurple;
+                                                        outline-width: 1px;
+                                                        color: black;
+                                                        font-weight: 700;
+                                                        font-family: 'Montserrat', sans-serif;
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .input-mobile {
+                                                            height: 30px;
+                                                        }
+                                                    }
+                                                    
+                                                    input:hover {
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    .outbutton {
+                                                        padding: 7px;
+                                                    }
+                                                    
+                                                    .button {
+                                                        border-radius: 5px;
+                                                        width: 100%;
+                                                        border: 1px #38CC8C solid;
+                                                        color: white;
+                                                        margin-bottom: 5px;
+                                                        background: #38CC8C;
+                                                        outline: none;
+                                                        font-size: 16px;
+                                                        padding: 10px;
+                                                        box-shadow: 0 4px 1px 0 rgb(34, 151, 116);
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .button-mobile {
+                                                            font-size: 10px;
+                                                            padding: 13px;
+                                                        }
+                                                    }
+                                                    
+                                                    .button:hover {
+                                                        background: #38CC8C;
+                                                        opacity: 0.7;
+                                                        cursor: pointer;
+                                                        border: 1px #38CC8C solid;
+                                                        outline: none;
+                                                    }
+                                                    
+                                                    .button:active {
+                                                        background-color: #38CC8C;
+                                                        box-shadow: 0 5px 1px 0 rgba(43, 112, 84, 0.493);
+                                                        transform: translateY(4px);
+                                                        outline: none;
+                                                    }
+                                                    
+                                                    .p {
+                                                        text-align: center;
+                                                        font-family: 'Montserrat', sans-serif;
+                                                        color: hsl(234, 14%, 74%);
+                                                        font-weight: lighter;
+                                                        padding-top: 10px;
+                                                        margin-bottom: 5px;
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 900px) {
+                                                        .p-desktop {
+                                                            font-size: 10px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .p-mobile {
+                                                            font-size: 12px
+                                                        }
+                                                    }
+                                                    
+                                                    .terms {
+                                                        color: #FF7A7A;
+                                                        font-weight: 400px;
+                                                        text-decoration: none;
+                                                    }
+                                                    
+                                                    .terms:hover {
+                                                        cursor: pointer;
+                                                        color: hsl(232, 13%, 33%);
+                                                        text-decoration: none;
+                                                    }
+                                                    
+                                                    .bottom {
+                                                        padding-top: 60px;
+                                                    }
+                                                    
+                                                    .atributes {
+                                                        text-align: center;
+                                                        font-size: 12px;
+                                                        font-family: 'Montserrat', sans-serif;
+                                                        color: white;
+                                                        font-weight: normal;
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 900px) {
+                                                        .atributes-mobile {
+                                                            font-size: 15px;
+                                                        }
+                                                    }
+                                                    
+                                                    .ahref {
+                                                        cursor: pointer;
+                                                        color: hsl(234, 14%, 74%);
+                                                        text-decoration: none;
+                                                    }
+                                                    
+                                                    .ahref:hover {
+                                                        color: #38CC8C;
+                                                        font-weight: bold;
+                                                    }
